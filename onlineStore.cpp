@@ -423,16 +423,14 @@ private:
 public:
     ProductCatalog() : productCount(0) {
         // Original products
-        addProduct(Product("LAP", "Laptop", 50000));
-        addProduct(Product("PHN", "Smartphone", 20000));
+        addProduct(Product("LAP", "Laptop", 5000));
+        addProduct(Product("PHN", "Smartphone", 2000));
         addProduct(Product("HDP", "Headphones", 3000));
         addProduct(Product("KEY", "Keyboard", 1500));
         addProduct(Product("MOU", "Mouse", 800));
-        
-        // New additional products
-        addProduct(Product("MON", "Monitor", 12000));
-        addProduct(Product("TAB", "Tablet", 15000));
-        addProduct(Product("SPK", "Bluetooth Speaker", 2500));
+        addProduct(Product("MON", "Monitor", 1200));
+        addProduct(Product("TAB", "Tablet", 1500));
+        addProduct(Product("SPK", "Bluetooth Speaker", 250));
         addProduct(Product("POW", "Power Bank", 1800));
         addProduct(Product("USB", "USB Flash Drive", 500));
         addProduct(Product("HDD", "External Hard Drive", 4000));
